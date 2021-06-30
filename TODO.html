@@ -7,24 +7,75 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <div id="myDIV" class="header">
+  <h1 style="margin:15px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Enter Chapter Name...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+ 
+<font align='center'><h1 style="background-color: black;">
+    <span class="gradient-text"><u>Physics</span>
+</h1>
+
+<li class="checked">ELECTROSTATICS</li>
+<li >OPTICS</li>
+<li>CAPACITANCE</li>
+<li>CURRENT ELECTRICITY</li>
+<li>MAGNETIC EFFECTS OF CURRENT</li>
+<h1 style="background-color: black;">
+    <span class="gradient-text">Organic Chemistry</span>
+</h1>
+<li>ISOMERISM II</li>
+<li>GRIGNARD REAGENT</li>
+<li>OXIDATION AND REDUCTION</li>
+<li>HALO ALKANES AND HALO ARENES</li>
+<li>ALCOHOL PHENOL AND ETHER</li>
+<li>ALDEHYDES KETONES AND CARBOXYLIC ACIDS</li>
+<li>POLYMERS</li>
+<li>BIOMOLECULES</li>
+<li>CHEMISTRY IN EVERYDAY LIFE</li>
+
+
+
+
+<h1 style="background-color: black;">
+    <span class="gradient-text">InOrganic Chemistry</span>
+</h1>
+<li>P- BLOCK ELEMENTS</li>
+<li>D- AND F- BLOCK ELEMENTS</li>
+<li>GENERAL PRINCIPLE AND PROCESSES FOR ISOLATION OF ELEMENTS</li>
+<li>COORDINATION COMPOUNDS</li>
+
+<h1 style="background-color: black;">
+    <span class="gradient-text">Physical Chemistry</span>
+</h1>
+<li>LIQUID SOLUTION</li>
+<li>SOLID STATE</li>
+<li>ELECTRO CHEMISTRY</li>
+<li>CHEMICAL KINETICS</li>
+<li>SURFACE CHEMISTRY</li>
+
+
+<h1 style="background-color: black;">
+    <span class="gradient-text">Maths</span>
+<li>RELATIONS AND FUNCTIONS</li>
+<li>3D GEOMETRY</li>
+<li>VECTORS</li>
+<li>MATRICES</li>
+<li>DETERMINANTS</li>
+<li>CONTINUTY AND DIFFERENTIABILITY</li>
+<li>APPLICATIONS OF DIFFERENTIABILITY</li>
+
+
+
+</h1></font>
+</ul>
 
         
     
-        <div id="myDIV" class="header">
-            <h1 style="margin:15px">My To Do List</h2>
-            <input type="text" id="myInput" placeholder="Enter Chapter Name...">
-            <span onclick="newElement()" class="addBtn">Add</span>
-          </div>
-          
-          <ul id="myUL">
-            <li class="checked">ELECTROSTATICS</li>
-            <li >OPTICS</li>
-            <li>OXIDATION AND REDUCTION</li>
-            
-            <li>LIQUID SOLUTIONS</li>
-            <li>3D GEOMETRY</li>
-            <li>VECTORS</li>
-          </ul>
+        
           <script>
               // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
